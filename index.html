@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Happy Counter</title>
+    <link rel="stylesheet" href="index.css"/>
+    <style> 
+        @font-face { 
+            font-family: poppinsbold;
+            src: url(Poppins-Bold.otf)
+        }
+        @font-face {
+            font-family: poppinsmedium;
+            src: url(Poppins-Medium.otf)
+        }
+        @font-face {
+            font-family: poppinsregular;
+            src: url(Poppins-Regular.otf)
+        }
+    </style>
+</head>
+<body>
+    <nav>welcome!</nav>
+    <h1>HAPPY COUNTER 😃</h1>
+    <h4> on cloud nine... </h4>
+    <p id="count-el">0</p>
+    <p id="save-count">Previous entries: </p>
+    <div class="buttons">
+        <button onclick="increaseCount()" id="increase-btn"> INCREASE HAPPINESS </button>
+        <button onclick="saveCount()" id="save-btn"> SAVE HAPPINESS </button>
+        <button onclick="decreaseCount()" id="decrease-btn"> DECREASE HAPPINESS </button>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

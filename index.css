@@ -1,0 +1,84 @@
+nav { 
+    background-color: black;
+    color: white;
+    padding: 13px;
+    font-family: poppinsbold;
+    letter-spacing: 1px;
+    font-size: 18px;
+}
+
+body {
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    font-family: poppinsbold;
+}
+
+h4 {
+    text-align: center;
+    margin-top: 0;
+    font-family: poppinsmedium
+}
+
+#count-el {
+    text-align: center;
+    font-family: poppinsmedium;
+    font-weight: bold;
+    font-size: 90px;
+    margin: 20px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+
+#increase-btn, #decrease-btn, #save-btn {
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 4px;
+    letter-spacing: 0.7px;
+    background-color: black;
+}
+
+#increase-btn {
+    color: white;
+}
+
+#increase-btn:hover {
+    color: #7FE706;
+    border: 2px solid #7FE706;
+    border-radius: 4px;
+    background-color: white;
+}
+
+#decrease-btn {
+    color: white;
+}
+
+#decrease-btn:hover {
+    color: red;
+    border: 2px solid red;
+    border-radius: 4px;
+    background-color: white;
+}
+
+#save-btn { 
+    color: white;
+}
+
+#save-btn:hover { 
+    background-color: white;
+    color: black;
+    padding: 11px;
+}
+
+#save-count {
+    text-align: center;
+    font-family: poppinsmedium;
+}
